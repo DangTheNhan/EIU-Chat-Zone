@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "EiuAnonymousChat.Api.Controllers.AdminController",
+    "Method": "BanUser",
+    "RelativePath": "api/Admin/ban/{userId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EiuAnonymousChat.Api.Controllers.AdminController",
+    "Method": "GetReports",
+    "RelativePath": "api/Admin/reports",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "EiuAnonymousChat.Api.Controllers.AuthController",
     "Method": "GoogleLogin",
     "RelativePath": "api/Auth/google-login",
@@ -10,24 +36,51 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "EiuAnonymousChat.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "ContainingType": "EiuAnonymousChat.Api.Controllers.ChatController",
+    "Method": "GetChatHistory",
+    "RelativePath": "api/Chat/history/{roomId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[EiuAnonymousChat.WeatherForecast, EiuAnonymousChat.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "roomId",
+        "Type": "System.Guid",
+        "IsRequired": true
       }
     ],
-    "EndpointName": "GetWeatherForecast"
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EiuAnonymousChat.Api.Controllers.ReportController",
+    "Method": "CreateReport",
+    "RelativePath": "api/Report/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EiuAnonymousChat.Api.DTOs.CreateReportRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EiuAnonymousChat.Api.Controllers.UserController",
+    "Method": "RevealUser",
+    "RelativePath": "api/User/reveal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EiuAnonymousChat.Api.DTOs.RevealRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

@@ -2,6 +2,7 @@ using EiuAnonymousChat.Api.Data;
 using EiuAnonymousChat.Api.Hubs;
 using EiuAnonymousChat.Api.Services;
 using Microsoft.EntityFrameworkCore;
+using EiuAnonymousChat.Api.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +18,10 @@ builder.Services.AddHostedService<MatchmakingWorker>();
 
 // Đăng ký Controllers và Swagger (đã có sẵn)
 builder.Services.AddControllers();
+builder.Services.AddScoped<ChatService>();
+builder.Services.AddScoped<ReportService>();
+builder.Services.AddScoped<RevealService>();
+builder.Services.AddScoped<AdminService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
