@@ -144,10 +144,10 @@ C:\Users\dangt\OneDrive\Desktop\123\EiuAnonymousChat\EiuAnonymousChat\obj\Debug\
 C:\Users\dangt\OneDrive\Desktop\123\EiuAnonymousChat\EiuAnonymousChat\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\dangt\OneDrive\Desktop\123\EiuAnonymousChat\EiuAnonymousChat\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\dangt\OneDrive\Desktop\123\EiuAnonymousChat\EiuAnonymousChat\obj\Debug\net8.0\swae.build.ex.cache
-C:\Users\dangt\OneDrive\Desktop\123\EiuAnonymousChat\EiuAnonymousChat\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\dangt\OneDrive\Desktop\123\EiuAnonymousChat\EiuAnonymousChat\obj\Debug\net8.0\EiuAnony.4A6A5603.Up2Date
 C:\Users\dangt\OneDrive\Desktop\123\EiuAnonymousChat\EiuAnonymousChat\obj\Debug\net8.0\EiuAnonymousChat.Api.dll
 C:\Users\dangt\OneDrive\Desktop\123\EiuAnonymousChat\EiuAnonymousChat\obj\Debug\net8.0\refint\EiuAnonymousChat.Api.dll
 C:\Users\dangt\OneDrive\Desktop\123\EiuAnonymousChat\EiuAnonymousChat\obj\Debug\net8.0\EiuAnonymousChat.Api.pdb
 C:\Users\dangt\OneDrive\Desktop\123\EiuAnonymousChat\EiuAnonymousChat\obj\Debug\net8.0\EiuAnonymousChat.Api.genruntimeconfig.cache
 C:\Users\dangt\OneDrive\Desktop\123\EiuAnonymousChat\EiuAnonymousChat\obj\Debug\net8.0\ref\EiuAnonymousChat.Api.dll
+C:\Users\dangt\OneDrive\Desktop\123\EiuAnonymousChat\EiuAnonymousChat\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

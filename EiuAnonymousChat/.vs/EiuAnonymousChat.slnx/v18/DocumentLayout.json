@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\dangt\\OneDrive\\Desktop\\123\\EiuAnonymousChat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dangt\\OneDrive\\Desktop\\123\\EiuAnonymousChat\\EiuAnonymousChat\\Migrations\\20260521073253_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EiuAnonymousChat\\Migrations\\20260521073253_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF8C9BDC-A981-CCD1-01A9-A628FBE335D1}|EiuAnonymousChat\\EiuAnonymousChat.Api.csproj|c:\\users\\dangt\\onedrive\\desktop\\123\\eiuanonymouschat\\eiuanonymouschat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF8C9BDC-A981-CCD1-01A9-A628FBE335D1}|EiuAnonymousChat\\EiuAnonymousChat.Api.csproj|solutionrelative:eiuanonymouschat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF8C9BDC-A981-CCD1-01A9-A628FBE335D1}|EiuAnonymousChat\\EiuAnonymousChat.Api.csproj|c:\\users\\dangt\\onedrive\\desktop\\123\\eiuanonymouschat\\eiuanonymouschat\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF8C9BDC-A981-CCD1-01A9-A628FBE335D1}|EiuAnonymousChat\\EiuAnonymousChat.Api.csproj|solutionrelative:eiuanonymouschat\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DF8C9BDC-A981-CCD1-01A9-A628FBE335D1}|EiuAnonymousChat\\EiuAnonymousChat.Api.csproj|c:\\users\\dangt\\onedrive\\desktop\\123\\eiuanonymouschat\\eiuanonymouschat\\services\\matchmakingworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF8C9BDC-A981-CCD1-01A9-A628FBE335D1}|EiuAnonymousChat\\EiuAnonymousChat.Api.csproj|solutionrelative:eiuanonymouschat\\services\\matchmakingworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DF8C9BDC-A981-CCD1-01A9-A628FBE335D1}|EiuAnonymousChat\\EiuAnonymousChat.Api.csproj|c:\\users\\dangt\\onedrive\\desktop\\123\\eiuanonymouschat\\eiuanonymouschat\\models\\chatreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF8C9BDC-A981-CCD1-01A9-A628FBE335D1}|EiuAnonymousChat\\EiuAnonymousChat.Api.csproj|solutionrelative:eiuanonymouschat\\models\\chatreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF8C9BDC-A981-CCD1-01A9-A628FBE335D1}|EiuAnonymousChat\\EiuAnonymousChat.Api.csproj|c:\\users\\dangt\\onedrive\\desktop\\123\\eiuanonymouschat\\eiuanonymouschat\\migrations\\20260521073253_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF8C9BDC-A981-CCD1-01A9-A628FBE335D1}|EiuAnonymousChat\\EiuAnonymousChat.Api.csproj|solutionrelative:eiuanonymouschat\\migrations\\20260521073253_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF8C9BDC-A981-CCD1-01A9-A628FBE335D1}|EiuAnonymousChat\\EiuAnonymousChat.Api.csproj|c:\\users\\dangt\\onedrive\\desktop\\123\\eiuanonymouschat\\eiuanonymouschat\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,20 +39,12 @@
       "RelativeMoniker": "D:0:0:{DF8C9BDC-A981-CCD1-01A9-A628FBE335D1}|EiuAnonymousChat\\EiuAnonymousChat.Api.csproj|solutionrelative:eiuanonymouschat\\models\\matchqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF8C9BDC-A981-CCD1-01A9-A628FBE335D1}|EiuAnonymousChat\\EiuAnonymousChat.Api.csproj|c:\\users\\dangt\\onedrive\\desktop\\123\\eiuanonymouschat\\eiuanonymouschat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF8C9BDC-A981-CCD1-01A9-A628FBE335D1}|EiuAnonymousChat\\EiuAnonymousChat.Api.csproj|solutionrelative:eiuanonymouschat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DF8C9BDC-A981-CCD1-01A9-A628FBE335D1}|EiuAnonymousChat\\EiuAnonymousChat.Api.csproj|c:\\users\\dangt\\onedrive\\desktop\\123\\eiuanonymouschat\\eiuanonymouschat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{DF8C9BDC-A981-CCD1-01A9-A628FBE335D1}|EiuAnonymousChat\\EiuAnonymousChat.Api.csproj|solutionrelative:eiuanonymouschat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF8C9BDC-A981-CCD1-01A9-A628FBE335D1}|EiuAnonymousChat\\EiuAnonymousChat.Api.csproj|c:\\users\\dangt\\onedrive\\desktop\\123\\eiuanonymouschat\\eiuanonymouschat\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF8C9BDC-A981-CCD1-01A9-A628FBE335D1}|EiuAnonymousChat\\EiuAnonymousChat.Api.csproj|solutionrelative:eiuanonymouschat\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF8C9BDC-A981-CCD1-01A9-A628FBE335D1}|EiuAnonymousChat\\EiuAnonymousChat.Api.csproj|c:\\users\\dangt\\onedrive\\desktop\\123\\eiuanonymouschat\\eiuanonymouschat\\services\\matchmakingworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF8C9BDC-A981-CCD1-01A9-A628FBE335D1}|EiuAnonymousChat\\EiuAnonymousChat.Api.csproj|solutionrelative:eiuanonymouschat\\services\\matchmakingworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF8C9BDC-A981-CCD1-01A9-A628FBE335D1}|EiuAnonymousChat\\EiuAnonymousChat.Api.csproj|c:\\users\\dangt\\onedrive\\desktop\\123\\eiuanonymouschat\\eiuanonymouschat\\hub\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,37 +62,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20260521073253_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\dangt\\OneDrive\\Desktop\\123\\EiuAnonymousChat\\EiuAnonymousChat\\Migrations\\20260521073253_InitialCreate.cs",
-              "RelativeDocumentMoniker": "EiuAnonymousChat\\Migrations\\20260521073253_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\dangt\\OneDrive\\Desktop\\123\\EiuAnonymousChat\\EiuAnonymousChat\\Migrations\\20260521073253_InitialCreate.cs",
-              "RelativeToolTip": "EiuAnonymousChat\\Migrations\\20260521073253_InitialCreate.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T07:32:53.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ChatReport.cs",
               "DocumentMoniker": "C:\\Users\\dangt\\OneDrive\\Desktop\\123\\EiuAnonymousChat\\EiuAnonymousChat\\Models\\ChatReport.cs",
               "RelativeDocumentMoniker": "EiuAnonymousChat\\Models\\ChatReport.cs",
               "ToolTip": "C:\\Users\\dangt\\OneDrive\\Desktop\\123\\EiuAnonymousChat\\EiuAnonymousChat\\Models\\ChatReport.cs",
               "RelativeToolTip": "EiuAnonymousChat\\Models\\ChatReport.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAIwA0AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T04:49:23.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T04:49:23.493Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ChatRoom.cs",
               "DocumentMoniker": "C:\\Users\\dangt\\OneDrive\\Desktop\\123\\EiuAnonymousChat\\EiuAnonymousChat\\Models\\ChatRoom.cs",
               "RelativeDocumentMoniker": "EiuAnonymousChat\\Models\\ChatRoom.cs",
@@ -100,12 +86,11 @@
               "RelativeToolTip": "EiuAnonymousChat\\Models\\ChatRoom.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAADwvwsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T04:48:54.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T04:48:54.876Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Message.cs",
               "DocumentMoniker": "C:\\Users\\dangt\\OneDrive\\Desktop\\123\\EiuAnonymousChat\\EiuAnonymousChat\\Models\\Message.cs",
               "RelativeDocumentMoniker": "EiuAnonymousChat\\Models\\Message.cs",
@@ -113,8 +98,7 @@
               "RelativeToolTip": "EiuAnonymousChat\\Models\\Message.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T04:49:08.159Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T04:49:08.159Z"
             },
             {
               "$type": "Document",
@@ -124,14 +108,14 @@
               "RelativeDocumentMoniker": "EiuAnonymousChat\\Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\dangt\\OneDrive\\Desktop\\123\\EiuAnonymousChat\\EiuAnonymousChat\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "EiuAnonymousChat\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAYwDIAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAwwEAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-21T04:53:58.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\dangt\\OneDrive\\Desktop\\123\\EiuAnonymousChat\\EiuAnonymousChat\\Models\\User.cs",
               "RelativeDocumentMoniker": "EiuAnonymousChat\\Models\\User.cs",
@@ -139,12 +123,11 @@
               "RelativeToolTip": "EiuAnonymousChat\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T04:46:48.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T04:46:48.05Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "MatchQueue.cs",
               "DocumentMoniker": "C:\\Users\\dangt\\OneDrive\\Desktop\\123\\EiuAnonymousChat\\EiuAnonymousChat\\Models\\MatchQueue.cs",
               "RelativeDocumentMoniker": "EiuAnonymousChat\\Models\\MatchQueue.cs",
@@ -152,37 +135,48 @@
               "RelativeToolTip": "EiuAnonymousChat\\Models\\MatchQueue.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T04:48:32.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T04:48:32.448Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dangt\\OneDrive\\Desktop\\123\\EiuAnonymousChat\\EiuAnonymousChat\\Program.cs",
               "RelativeDocumentMoniker": "EiuAnonymousChat\\Program.cs",
               "ToolTip": "C:\\Users\\dangt\\OneDrive\\Desktop\\123\\EiuAnonymousChat\\EiuAnonymousChat\\Program.cs",
               "RelativeToolTip": "EiuAnonymousChat\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAwwBwAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-21T05:00:49.535Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
+              "Title": "20260521073253_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\dangt\\OneDrive\\Desktop\\123\\EiuAnonymousChat\\EiuAnonymousChat\\Migrations\\20260521073253_InitialCreate.cs",
+              "RelativeDocumentMoniker": "EiuAnonymousChat\\Migrations\\20260521073253_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\dangt\\OneDrive\\Desktop\\123\\EiuAnonymousChat\\EiuAnonymousChat\\Migrations\\20260521073253_InitialCreate.cs",
+              "RelativeToolTip": "EiuAnonymousChat\\Migrations\\20260521073253_InitialCreate.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T07:32:53.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MatchmakingWorker.cs",
               "DocumentMoniker": "C:\\Users\\dangt\\OneDrive\\Desktop\\123\\EiuAnonymousChat\\EiuAnonymousChat\\Services\\MatchmakingWorker.cs",
               "RelativeDocumentMoniker": "EiuAnonymousChat\\Services\\MatchmakingWorker.cs",
               "ToolTip": "C:\\Users\\dangt\\OneDrive\\Desktop\\123\\EiuAnonymousChat\\EiuAnonymousChat\\Services\\MatchmakingWorker.cs",
               "RelativeToolTip": "EiuAnonymousChat\\Services\\MatchmakingWorker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-21T04:58:39.985Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\dangt\\OneDrive\\Desktop\\123\\EiuAnonymousChat\\EiuAnonymousChat\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "EiuAnonymousChat\\Controllers\\AuthController.cs",
@@ -218,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\dangt\\OneDrive\\Desktop\\123\\EiuAnonymousChat\\EiuAnonymousChat\\appsettings.json",
               "RelativeDocumentMoniker": "EiuAnonymousChat\\appsettings.json",

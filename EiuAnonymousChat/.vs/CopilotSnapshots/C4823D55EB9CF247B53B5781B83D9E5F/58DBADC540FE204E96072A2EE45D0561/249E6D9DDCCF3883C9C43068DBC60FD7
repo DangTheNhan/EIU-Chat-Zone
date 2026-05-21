@@ -1,0 +1,68 @@
+﻿using EiuAnonymousChat.Models;
+using Microsoft.EntityFrameworkCore;
+
+namespace EiuAnonymousChat.Api.Data
+{
+    public class ApplicationDbContext : DbContext
+    {
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
+
+        // Khai báo 5 bảng tương ứng với 5 Models đã tạo
+        public DbSet<User> Users { get; set; }
+        public DbSet<MatchQueue> MatchQueues { get; set; }
+        public DbSet<ChatRoom> ChatRooms { get; set; }
+        public DbSet<Message> Messages { get; set; }
+        public DbSet<ChatReport> ChatReports { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            // Chỗ này để trống. Nhóm sẽ cấu hình Fluent API (Khóa ngoại, Unique, v.v.) tại đây sau.
+            modelBuilder.Entity<User>(entity =>
+            {
+                entity.HasKey(u => u.Id);
+                entity.HasIndex(u => u.EiuEmail).IsUnique();
+                entity.Property(u => u.EiuEmail).HasMaxLength(100).IsRequired();
+                entity.Property(u => u.FullName).HasMaxLength(100).IsRequired();
+                entity.Property(u => u.StudentID).HasMaxLength(20).IsRequired();
+                entity.Property(u => u.Gender).HasMaxLength(10);
+                entity.Property(u => u.AvatarUrl).HasMaxLength(255);
+            });
+            modelBuilder.Entity<MatchQueue>(entity =>
+            {
+                entity.HasKey(mq => mq.Id);
+                entity.HasIndex(mq => mq.UserId).IsUnique();
+                entity.HasOne<User>().WithMany().HasForeignKey(mq => mq.UserId).OnDelete(DeleteBehavior.Cascade);
+            });
+            modelBuilder.Entity<ChatRoom>(entity =>
+            {
+                entity.HasKey(cr => cr.Id);
+                entity.HasOne<User>().WithMany().HasForeignKey(cr => cr.User1Id).OnDelete(DeleteBehavior.Restrict);
+                entity.HasOne<User>().WithMany().HasForeignKey(cr => cr.User2Id).OnDelete(DeleteBehavior.Restrict);
+                entity.Property(cr => cr.Status).HasMaxLength(20).IsRequired();
+            });
+            modelBuilder.Entity<Message>(entity =>
+            {
+                entity.HasKey(m => m.Id);
+                entity.HasIndex(m => m.ChatRoomId);
+                entity.HasOne<ChatRoom>().WithMany().HasForeignKey(m => m.ChatRoomId).OnDelete(DeleteBehavior.Cascade);
+                entity.HasIndex(m => m.SenderId);
+                entity.HasOne<User>().WithMany().HasForeignKey(m => m.SenderId).OnDelete(DeleteBehavior.Restrict);
+                entity.Property(m => m.Content).HasMaxLength(1000).IsRequired();
+            });
+            modelBuilder.Entity<ChatReport>(entity =>
+            {
+                entity.HasKey(cp => cp.Id);
+                entity.HasIndex(cp => cp.ChatRoomId);
+                entity.HasOne<ChatRoom>().WithMany().HasForeignKey(cp => cp.ChatRoomId).OnDelete(DeleteBehavior.Cascade);
+                entity.HasIndex(cp => cp.ReporterId);
+                entity.HasOne<User>().WithMany().HasForeignKey(cp => cp.ReporterId).OnDelete(DeleteBehavior.Restrict);
+                entity.HasIndex(cp => cp.ReportedUserId);
+                entity.HasOne<User>().WithMany().HasForeignKey(cp => cp.ReportedUserId).OnDelete(DeleteBehavior.Restrict);
+                entity.Property(cp => cp.ViolatingMessage).HasMaxLength(1000).IsRequired();
+                entity.Property(cp => cp.Reason).HasMaxLength(1000).IsRequired();
+                entity.Property(cp => cp.Status).HasMaxLength(20).IsRequired();
+            });
+        }
+    }
+}
