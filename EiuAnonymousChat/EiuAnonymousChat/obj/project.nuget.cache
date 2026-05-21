@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G10BYAStBiQ=",
+  "dgSpecHash": "F3+82R4iSDU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\dangt\\OneDrive\\Desktop\\Backend\\EiuAnonymousChat\\EiuAnonymousChat\\EiuAnonymousChat.Api.csproj",
+  "projectFilePath": "C:\\Users\\dangt\\OneDrive\\Desktop\\123\\EiuAnonymousChat\\EiuAnonymousChat\\EiuAnonymousChat.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dangt\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\dangt\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -5477,11 +5477,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dangt\\OneDrive\\Desktop\\Backend\\EiuAnonymousChat\\EiuAnonymousChat\\EiuAnonymousChat.Api.csproj",
+      "projectUniqueName": "C:\\Users\\dangt\\OneDrive\\Desktop\\123\\EiuAnonymousChat\\EiuAnonymousChat\\EiuAnonymousChat.Api.csproj",
       "projectName": "EiuAnonymousChat.Api",
-      "projectPath": "C:\\Users\\dangt\\OneDrive\\Desktop\\Backend\\EiuAnonymousChat\\EiuAnonymousChat\\EiuAnonymousChat.Api.csproj",
+      "projectPath": "C:\\Users\\dangt\\OneDrive\\Desktop\\123\\EiuAnonymousChat\\EiuAnonymousChat\\EiuAnonymousChat.Api.csproj",
       "packagesPath": "C:\\Users\\dangt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dangt\\OneDrive\\Desktop\\Backend\\EiuAnonymousChat\\EiuAnonymousChat\\obj\\",
+      "outputPath": "C:\\Users\\dangt\\OneDrive\\Desktop\\123\\EiuAnonymousChat\\EiuAnonymousChat\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

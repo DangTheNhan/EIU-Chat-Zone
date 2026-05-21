@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EiuAnonymousChat.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe0e32ef976a0eacf0ef5b5bc9f8d59495a2ea20")]
 [assembly: System.Reflection.AssemblyProductAttribute("EiuAnonymousChat.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EiuAnonymousChat.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
